@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+}
+button {
+  border-radius: 85%;
+
+  background-color: rgba(255, 136, 0, 0.808);
+  color: white;
+}
+button:hover {
+  transition-duration: 0.5s;
+  background-color: cyan;
+  color: darkslategrey;
+}
+
+.grid-container {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-auto-columns: 90px;
+  grid-template-rows: 40px 25px 90px 90px 90px 90px 90px;
+  background-color: rgba(255, 192, 203, 0.623);
+
+  padding: 15px 25px 15px 25px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.grid-item {
+  padding: 1px;
+  font-size: 70px;
+
+  cursor: pointer;
+}
+.box {
+  background-color: black;
+  grid-column: 2/4;
+}
+.input {
+  grid-column: 1/4;
+
+  text-align: center;
+}
+.margin {
+  margin: 100px 750px;
+}
