@@ -14,7 +14,7 @@ button:hover {
 }
 
 .grid-container {
-  display: grid;
+  display: inline-grid;
   align-content: center;
   justify-content: center;
   grid-auto-columns: 90px;
